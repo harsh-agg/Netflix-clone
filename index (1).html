@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix India – Watch TV Shows Online, Watch Movies Online</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-left">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix Logo" class="logo">
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">TV Shows</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">New & Popular</a></li>
+                <li><a href="#">My List</a></li>
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Titles, people, genres">
+                <button id="search-btn"><i class="fas fa-search"></i></button>
+                <div class="search-results" id="search-results"></div>
+            </div>
+            <div class="profile">
+                <i class="fas fa-bell"></i>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png" alt="Profile" class="profile-icon">
+            </div>
+        </div>
+    </div>
+
+    <div class="hero">
+        <div class="hero-content">
+            <h1>Stranger Things</h1>
+            <p>When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces and one strange little girl.</p>
+            <div class="hero-buttons">
+                <button class="play-btn"><i class="fas fa-play"></i> Play</button>
+                <button class="info-btn"><i class="fas fa-info-circle"></i> More Info</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="movie-section">
+            <h2>Popular on Netflix</h2>
+            <div class="movie-row" id="popular">
+                <!-- Movies will be added by JavaScript -->
+            </div>
+        </div>
+
+        <div class="movie-section">
+            <h2>Trending Now</h2>
+            <div class="movie-row" id="trending">
+                <!-- Movies will be added by JavaScript -->
+            </div>
+        </div>
+
+        <div class="movie-section">
+            <h2>TV Dramas</h2>
+            <div class="movie-row" id="dramas">
+                <!-- Movies will be added by JavaScript -->
+            </div>
+        </div>
+
+        <div class="movie-section">
+            <h2>Action & Adventure</h2>
+            <div class="movie-row" id="action">
+                <!-- Movies will be added by JavaScript -->
+            </div>
+        </div>
+
+        <div class="movie-section">
+            <h2>Comedies</h2>
+            <div class="movie-row" id="comedy">
+                <!-- Movies will be added by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+            <div class="footer-links">
+                <a href="#">Audio Description</a>
+                <a href="#">Help Center</a>
+                <a href="#">Gift Cards</a>
+                <a href="#">Media Center</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">Jobs</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Privacy</a>
+                <a href="#">Legal Notices</a>
+                <a href="#">Cookie Preferences</a>
+                <a href="#">Corporate Information</a>
+                <a href="#">Contact Us</a>
+            </div>
+            <button class="service-btn">Service Code</button>
+            <p class="copyright">© 2023 Netflix Clone, Inc.</p>
+        </div>
+    </footer>
+
+     <script src="myscrip.js"></script>
+</body>
+</html>
